@@ -12,80 +12,100 @@
     ></script>
   </head>
   <body>
-    <header>
-      <h1>Quiz App</h1>
-    </header>
+    <h1>quiz-app</h1>
     <main>
-      <section class="card-set">
-        <i class="fas fa-bookmark bookmarks"></i>
-        <h2 class="bold">Question</h2>
-        <p class="blocksatz">
+      <section class="main__card">
+        <i class="fas fa-bookmark"></i>
+        <h2>name</h2>
+        <p>
           Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
           nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat,
           sed diam voluptua?
         </p>
-        <button class="button" type="button">show answer</button>
-        <ul class="ul-card">
-          <li class="tag">#html</li>
-          <li class="tag">#css</li>
-          <li class="tag">#grid</li>
-          <li class="tag">#responsive</li>
+        <button class="card__button" type="button">show answer</button>
+        <ul class="card__tag-set">
+          <li class="card__tag">html</li>
+          <li class="card__tag">css</li>
+          <li class="card__tag">grid</li>
+          <li class="card__tag">responsive</li>
         </ul>
       </section>
-      <section class="card-set">
-        <i class="fas fa-bookmark bookmarks"></i>
-        <h2 class="bold">Question</h2>
-        <p class="blocksatz">
+      <section class="main__card">
+        <i class="fas fa-bookmark"></i>
+        <h2>name</h2>
+        <p>
           Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
           nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat,
           sed diam voluptua?
         </p>
-        <button class="button" type="button">show answer</button>
-        <ul class="ul-card">
-          <li class="tag">#html</li>
-          <li class="tag">#css</li>
-          <li class="tag">#grid</li>
-          <li class="tag">#responsive</li>
+        <button class="card__button" type="button">show answer</button>
+        <ul class="card__tag-set">
+          <li class="card__tag">html</li>
+          <li class="card__tag">css</li>
+          <li class="card__tag">grid</li>
+          <li class="card__tag">responsive</li>
         </ul>
       </section>
-      <section class="card-set">
-        <i class="fas fa-bookmark bookmarks"></i>
-        <h2 class="bold">Question</h2>
-        <p class="blocksatz">
+      <section class="main__card">
+        <i class="fas fa-bookmark"></i>
+        <h2>name</h2>
+        <p>
           Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
           nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat,
           sed diam voluptua?
         </p>
-        <button class="button" type="button">show answer</button>
-        <ul class="ul-card">
-          <li class="tag">#html</li>
-          <li class="tag">#css</li>
-          <li class="tag">#grid</li>
-          <li class="tag">#responsive</li>
+        <button class="card__button" type="button">show answer</button>
+        <ul class="card__tag-set">
+          <li class="card__tag">html</li>
+          <li class="card__tag">css</li>
+          <li class="card__tag">grid</li>
+          <li class="card__tag">responsive</li>
         </ul>
       </section>
-      <section class="card-set">
-        <i class="fas fa-bookmark bookmarks"></i>
-        <h2 class="bold">Question</h2>
-        <p class="blocksatz">
+      <section class="main__card">
+        <i class="fas fa-bookmark"></i>
+        <h2>name</h2>
+        <p>
           Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
           nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat,
           sed diam voluptua?
         </p>
-        <button class="button" type="button">show answer</button>
-        <ul class="ul-card">
-          <li class="tag">#html</li>
-          <li class="tag">#css</li>
-          <li class="tag">#grid</li>
-          <li class="tag">#responsive</li>
+        <button class="card__button" type="button">show answer</button>
+        <ul class="card__tag-set">
+          <li class="card__tag">html</li>
+          <li class="card__tag">css</li>
+          <li class="card__tag">grid</li>
+          <li class="card__tag">responsive</li>
         </ul>
       </section>
     </main>
-    <nav>
-      <i class="fas fa-home"></i>
-      <i class="far fa-bookmark"></i>
-      <i class="far fa-plus-square"></i>
-      <i class="far fa-user-circle"></i>
+    <nav class="app__navigation">
+      <ul role="list">
+        <li class="nav__section">
+          <a href="index.html"
+            ><i class="fas fa-home nav__icon nav__section--active"></i
+            ><span class="sr-only">Home</span></a
+          >
+        </li>
+        <li class="nav__section">
+          <a href="bookmarks.html"
+            ><i class="fas fa-bookmark nav__icon"></i
+            ><span class="sr-only">Bookmarks</span></a
+          >
+        </li>
+        <li class="nav__section">
+          <a href="create.html"
+            ><i class="fas fa-plus nav__icon"></i
+            ><span class="sr-only">Create Card</span></a
+          >
+        </li>
+        <li class="nav__section">
+          <a href="profile.html"
+            ><i class="fas fa-user-circle nav__icon"></i
+            ><span class="sr-only">Profile</span>
+          </a>
+        </li>
+      </ul>
     </nav>
   </body>
 </html>
