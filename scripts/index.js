@@ -18,10 +18,10 @@ homeButton.addEventListener('click', () => {
   createSection.classList.add('hidden')
   profileSection.classList.add('hidden')
 
-  homeButton.classList.remove('nav__section--active')
-  bookmarkButton.classList.remove('nav__section--active')
-  createButton.classList.remove('nav__section--active')
-  profileButton.classList.remove('nav__section--active')
+  homeButton.classList.add('nav__list-item--active')
+  bookmarkButton.classList.remove('nav__list-item--active')
+  createButton.classList.remove('nav__list-item--active')
+  profileButton.classList.remove('nav__list-item--active')
 
 })
 
@@ -30,6 +30,11 @@ bookmarkButton.addEventListener('click', () => {
   bookmarkSection.classList.remove('hidden')
   createSection.classList.add('hidden')
   profileSection.classList.add('hidden')
+
+  homeButton.classList.remove('nav__list-item--active')
+  bookmarkButton.classList.add('nav__list-item--active')
+  createButton.classList.remove('nav__list-item--active')
+  profileButton.classList.remove('nav__list-item--active')
 })
 
 createButton.addEventListener('click', () => {
@@ -37,13 +42,23 @@ createButton.addEventListener('click', () => {
   bookmarkSection.classList.add('hidden')
   createSection.classList.remove('hidden')
   profileSection.classList.add('hidden')
+
+  homeButton.classList.remove('nav__list-item--active')
+  bookmarkButton.classList.remove('nav__list-item--active')
+  createButton.classList.add('nav__list-item--active')
+  profileButton.classList.remove('nav__list-item--active')
 })
 
 profileButton.addEventListener('click', () => {
   homeSection.classList.add('hidden')
   bookmarkSection.classList.add('hidden')
   createSection.classList.add('hidden')
-  profileSection.classList.remove('hidden')  
+  profileSection.classList.remove('hidden') 
+  
+  homeButton.classList.remove('nav__list-item--active')
+  bookmarkButton.classList.remove('nav__list-item--active')
+  createButton.classList.remove('nav__list-item--active')
+  profileButton.classList.add('nav__list-item--active')
 })
 
 
