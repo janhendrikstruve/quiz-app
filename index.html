@@ -10,15 +10,13 @@
       src="https://kit.fontawesome.com/9675a3a71a.js"
       crossorigin="anonymous"
     ></script>
-    <script src="scripts/index.js" defer></script>
+    <script type="module" src="scripts/index.js" defer></script>
   </head>
   <body>
     <h1>quiz-app</h1>
-    
-    
-    
+
     <main data-js="home-section" class="">
-      <section class="card">
+      <section data-js="card" class="card">
         <i class="fas fa-bookmark"></i>
         <h2>name</h2>
         <p>
@@ -34,7 +32,7 @@
           <li class="card__tag">responsive</li>
         </ul>
       </section>
-      <section class="card">
+      <section data-js="card" class="card">
         <i class="fas fa-bookmark"></i>
         <h2>name</h2>
         <p>
@@ -50,7 +48,7 @@
           <li class="card__tag">responsive</li>
         </ul>
       </section>
-      <section class="card">
+      <section data-js="card" class="card">
         <i class="fas fa-bookmark"></i>
         <h2>name</h2>
         <p>
@@ -66,7 +64,7 @@
           <li class="card__tag">responsive</li>
         </ul>
       </section>
-      <section class="card">
+      <section data-js="card" class="card">
         <i class="fas fa-bookmark"></i>
         <h2>name</h2>
         <p>
@@ -83,11 +81,9 @@
         </ul>
       </section>
     </main>
-
-
 
     <main data-js="bookmark-section" class="hidden">
-      <section class="card">
+      <section data-js="card" class="card">
         <i class="fas fa-bookmark"></i>
         <h2>name</h2>
         <p>
@@ -103,7 +99,7 @@
           <li class="card__tag">responsive</li>
         </ul>
       </section>
-      <section class="card">
+      <section data-js="card" class="card">
         <i class="fas fa-bookmark"></i>
         <h2>name</h2>
         <p>
@@ -120,11 +116,9 @@
         </ul>
       </section>
     </main>
-
-
 
     <main data-js="create-section" class="hidden">
-      <section class="card">
+      <section data-js="card" class="card">
         <h2>name</h2>
         <p>
           Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
@@ -140,10 +134,8 @@
         </ul>
       </section>
     </main>
-    
 
-
-        <main data-js="profile-section" class="hidden">
+    <main data-js="profile-section" class="hidden">
       <section class="card">
         <h2>name</h2>
         <p>
@@ -161,30 +153,31 @@
       </section>
     </main>
 
-
-    
     <nav>
       <ul role="list" class="nav__list">
         <li>
-          <a data-js="home-button" class="nav__list-item nav__list-item--active" href=#
-            ><i class="fas fa-home nav__icon "></i
+          <a
+            data-js="home-button"
+            class="nav__list-item nav__list-item--active"
+            href="#"
+            ><i class="fas fa-home nav__icon"></i
             ><span class="sr-only">Home</span></a
           >
         </li>
         <li>
-          <a data-js="bookmark-button" class="nav__list-item" href=#
+          <a data-js="bookmark-button" class="nav__list-item" href="#"
             ><i class="fas fa-bookmark nav__icon"></i
             ><span class="sr-only">Bookmarks</span></a
           >
         </li>
         <li>
-          <a data-js="create-button" class="nav__list-item" a href=#
+          <a data-js="create-button" class="nav__list-item" a href="#"
             ><i class="fas fa-plus nav__icon"></i
             ><span class="sr-only">Create Card</span></a
           >
         </li>
         <li>
-          <a data-js="profile-button" class="nav__list-item" href=#
+          <a data-js="profile-button" class="nav__list-item" href="#"
             ><i class="fas fa-user-circle nav__icon"></i
             ><span class="sr-only">Profile</span>
           </a>
