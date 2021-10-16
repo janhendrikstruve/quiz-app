@@ -1,0 +1,43 @@
+.card {
+  background-color: yellow;
+  padding: 0 16px 0;
+  display: grid;
+  flex-direction: column;
+  border-radius: 8px;
+  height: 320px;
+  position: relative;
+  align-items: center;
+}
+
+.card__button {
+  justify-content: center;
+  background-color: black;
+  color: yellow;
+  padding: 10px 40px;
+  text-transform: uppercase;
+  border-radius: 8px;
+  border: none;
+  justify-self: center;
+}
+
+.card__tag-set {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card__tag {
+  padding: 4px;
+  border-radius: 10px;
+  margin: 4px;
+  background-color: black;
+  color: yellow;
+}
+
+.card__bookmark {
+  position: absolute;
+  font-size: 32px;
+  right: 40px;
+  top: -2px;
+}
