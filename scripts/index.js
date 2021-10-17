@@ -1,6 +1,7 @@
-import { navigation } from "./navigation.js";
-import { cards } from "./cards.js";
-console.clear();
+console.clear()
 
-navigation();
-cards();
+import { navigation } from "./navigation.js"
+import { cards } from "./cards.js"
+
+navigation()
+cards()

@@ -10,7 +10,6 @@
 }
 
 .card__button {
-  justify-content: center;
   background-color: black;
   color: yellow;
   padding: 10px 40px;
@@ -25,6 +24,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  padding: 0;
 }
 
 .card__tag {
